@@ -53,30 +53,49 @@ export default function Home() {
         </div>
       </nav>
 
-      <section className='flex min-h-[1056px] flex-col justify-around'>
+      <section className='flex min-h-[900px] flex-col justify-around bg-banner bg-[length:100%_134px] bg-left-bottom bg-no-repeat'>
         <div className='mx-auto w-full xl:max-w-screen-xl 2xl:max-w-screen-2xl'>
-          <div className='flex justify-center gap-[80px]'>
+          <div className='flex justify-center gap-[120px]'>
             <div>
               <h1 className='space-y-7 text-[54px] font-semibold leading-[62px] text-gray-100'>
                 VHT <span className='text-blue-200'>Lighting</span>
               </h1>
-              <h3 className='text-[22px] font-semibold leading-9 text-gray-50'>Kẻ huỷ diệt màn đêm</h3>
-              <h3 className='text-[22px] font-semibold leading-9 text-gray-50'>Thách thức mọi cung đường</h3>
+              <p className='mt-4 text-[22px] leading-9 text-gray-50'>
+                Luôn nỗ lực để mang những sản phẩm,
+                <br /> dịch vụ tốt nhất đến với khách hàng
+              </p>
+
               <button className='mt-10 h-[60px] w-[150px] rounded-full bg-blue-200 text-white hover:cursor-pointer'>
                 Khám phá
               </button>
             </div>
             <div>
-              <Image src='https://picsum.photos/300/300' width={300} height={300}></Image>
+              <div className='flex flex-row items-center gap-10'>
+                <div>
+                  <Image src='/images/s600.png' width={200} height={150}></Image>
+                  <h3 className='text-[22px] font-semibold leading-9 text-blue-200'>Kẻ huỷ diệt màn đêm</h3>
+                </div>
+                <div>
+                  <h3 className='text-[22px] font-semibold leading-9 text-blue-200'>Thách thức mọi cung đường</h3>
+                  <Image src='/images/f150.png' width={200} height={200}></Image>
+                </div>
+              </div>
             </div>
           </div>
 
           <div className='mt-[94px]'>
-            <p className='text-center text-[17px] text-gray-50'>Trusted by over 2K+ clients across the world</p>
-            <div className='mt-10'>
+            <p className='text-center text-[17px] text-gray-50'>Sản phẩm đa dạng các thương hiệu</p>
+            <div className='mb-[134px] mt-10'>
               <Brand />
             </div>
           </div>
+        </div>
+      </section>
+
+      <section className='min-h-[700px] bg-gradient-to-b from-blue-100 to-white'>
+        <div className='mx-auto w-full xl:max-w-screen-xl 2xl:max-w-screen-2xl'>
+          <div className=''></div>
+          <div className=''></div>
         </div>
       </section>
     </main>
