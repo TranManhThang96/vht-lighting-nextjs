@@ -389,42 +389,45 @@ export default function Home() {
         </div>
       </section>
 
-      <section className='min-h-[450px] bg-gray-100'>
-        <div className='mx-auto flex w-full gap-10 py-10 xl:max-w-screen-xl 2xl:max-w-screen-2xl'>
-          <div className='basis-1/2'>
-            <iframe
-              src='https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d6264.934972323831!2d105.78153597238267!3d20.98651835644432!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x31345334df11ecbb%3A0x9c9c75731a324e58!2zNDM3IMSQLiBUaGFuaCBCw6xuaCwgUC4gTeG7mSBMYW8sIEjDoCDEkMO0bmcsIEjDoCBO4buZaSwgVmnhu4d0IE5hbQ!5e0!3m2!1svi!2s!4v1719830230608!5m2!1svi!2s'
-              width={'100%'}
-              height='450'
-              style={{ border: 0 }}
-              allowfullscreen=''
-              loading='lazy'
-              referrerpolicy='no-referrer-when-downgrade'
-            ></iframe>
-          </div>
+      <section className='bg-gray-100'>
+        <div className='mx-auto w-full py-10 xl:max-w-screen-xl 2xl:max-w-screen-2xl'>
+          <div className='flex gap-10'>
+            <div className='basis-1/2'>
+              <iframe
+                src='https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d6264.934972323831!2d105.78153597238267!3d20.98651835644432!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x31345334df11ecbb%3A0x9c9c75731a324e58!2zNDM3IMSQLiBUaGFuaCBCw6xuaCwgUC4gTeG7mSBMYW8sIEjDoCDEkMO0bmcsIEjDoCBO4buZaSwgVmnhu4d0IE5hbQ!5e0!3m2!1svi!2s!4v1719830230608!5m2!1svi!2s'
+                width={'100%'}
+                height='450'
+                style={{ border: 0 }}
+                allowfullscreen=''
+                loading='lazy'
+                referrerpolicy='no-referrer-when-downgrade'
+              ></iframe>
+            </div>
 
-          <div className='basis-1/2'>
-            <h4>Liên hệ</h4>
-            <p>
-              <b>Địa chỉ</b>: 437c Thanh Bình, Mộ Lao, Hà Đông, Hà Nội
-            </p>
-            <p>
-              <b>Hotline</b>: <a href='tel:+4733378901'>0988 888 888</a>
-            </p>
-            <div>
-              <b>Social</b>:
+            <div className='basis-1/2'>
+              <h4>Liên hệ</h4>
+              <p>
+                <b>Địa chỉ</b>: 437c Thanh Bình, Mộ Lao, Hà Đông, Hà Nội
+              </p>
+              <p>
+                <b>Hotline</b>: <a href='tel:+4733378901'>0988 888 888</a>
+              </p>
               <div>
-                <a href='https://www.facebook.com/profile.php?id=61556883868996' target='_blank'>
-                  <svg width='9' height='18' viewBox='0 0 9 18' fill='none' xmlns='http://www.w3.org/2000/svg'>
-                    <path
-                      d='M7.08984 3.38379H8.65234V0.727539C8.3138 0.688477 7.95573 0.65918 7.57812 0.639648C7.20052 0.620117 6.8099 0.610352 6.40625 0.610352C6.40625 0.610352 6.40299 0.610352 6.39648 0.610352C6.38997 0.610352 6.38021 0.610352 6.36719 0.610352C5.23438 0.610352 4.31641 0.948893 3.61328 1.62598C2.91016 2.30306 2.55859 3.27311 2.55859 4.53613V6.72363H0V9.69238H2.55859V17.29H5.625V9.69238H8.18359L8.55469 6.72363H5.625V4.8291C5.625 4.38639 5.71615 4.03483 5.89844 3.77441C6.08073 3.514 6.47786 3.38379 7.08984 3.38379Z'
-                      fill='white'
-                    />
-                  </svg>
-                </a>
+                <b>Social</b>:
+                <div>
+                  <a href='https://www.facebook.com/profile.php?id=61556883868996' target='_blank'>
+                    <svg width='9' height='18' viewBox='0 0 9 18' fill='none' xmlns='http://www.w3.org/2000/svg'>
+                      <path
+                        d='M7.08984 3.38379H8.65234V0.727539C8.3138 0.688477 7.95573 0.65918 7.57812 0.639648C7.20052 0.620117 6.8099 0.610352 6.40625 0.610352C6.40625 0.610352 6.40299 0.610352 6.39648 0.610352C6.38997 0.610352 6.38021 0.610352 6.36719 0.610352C5.23438 0.610352 4.31641 0.948893 3.61328 1.62598C2.91016 2.30306 2.55859 3.27311 2.55859 4.53613V6.72363H0V9.69238H2.55859V17.29H5.625V9.69238H8.18359L8.55469 6.72363H5.625V4.8291C5.625 4.38639 5.71615 4.03483 5.89844 3.77441C6.08073 3.514 6.47786 3.38379 7.08984 3.38379Z'
+                        fill='white'
+                      />
+                    </svg>
+                  </a>
+                </div>
               </div>
             </div>
           </div>
+          <div className='mx-auto mt-5 text-center text-white'>© 2024 VHT Lighting. All rights reserved.</div>
         </div>
       </section>
     </main>
