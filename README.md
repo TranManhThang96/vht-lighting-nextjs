@@ -42,3 +42,4 @@ Check out our [Next.js deployment documentation](https://nextjs.org/docs/deploym
 ## heroicons
 
 [Link](https://heroicons.com/)
+[nucleoapp](https://nucleoapp.com/social-media-icons)
