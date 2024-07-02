@@ -24,12 +24,12 @@ const Banner = () => {
           <div>
             <div className='flex flex-row items-center gap-10'>
               <div>
-                <Image src='/images/s600.png' width={200} height={150}></Image>
+                <Image src='/images/s600.png' width={200} height={150} alt=''></Image>
                 <h3 className='text-[22px] font-semibold leading-9 text-blue-200'>Kẻ huỷ diệt màn đêm</h3>
               </div>
               <div>
                 <h3 className='text-[22px] font-semibold leading-9 text-blue-200'>Thách thức mọi cung đường</h3>
-                <Image src='/images/f150.png' width={200} height={200}></Image>
+                <Image src='/images/f150.png' width={200} height={200} alt=''></Image>
               </div>
             </div>
           </div>
@@ -55,38 +55,38 @@ const Banner = () => {
             >
               <SplideTrack>
                 <SplideSlide>
-                  <Image src='https://picsum.photos/160/30' width={160} height={30}></Image>
+                  <Image src='https://picsum.photos/160/30' width={160} height={30} alt=''></Image>
                 </SplideSlide>
 
                 <SplideSlide>
-                  <Image src='https://picsum.photos/160/30' width={160} height={30}></Image>
+                  <Image src='https://picsum.photos/160/30' width={160} height={30} alt=''></Image>
                 </SplideSlide>
                 <SplideSlide>
-                  <Image src='https://picsum.photos/160/30' width={160} height={30}></Image>
+                  <Image src='https://picsum.photos/160/30' width={160} height={30} alt=''></Image>
                 </SplideSlide>
                 <SplideSlide>
-                  <Image src='https://picsum.photos/160/30' width={160} height={30}></Image>
+                  <Image src='https://picsum.photos/160/30' width={160} height={30} alt=''></Image>
                 </SplideSlide>
                 <SplideSlide>
-                  <Image src='https://picsum.photos/160/30' width={160} height={30}></Image>
+                  <Image src='https://picsum.photos/160/30' width={160} height={30} alt=''></Image>
                 </SplideSlide>
                 <SplideSlide>
-                  <Image src='https://picsum.photos/160/30' width={160} height={30}></Image>
+                  <Image src='https://picsum.photos/160/30' width={160} height={30} alt=''></Image>
                 </SplideSlide>
                 <SplideSlide>
-                  <Image src='https://picsum.photos/160/30' width={160} height={30}></Image>
+                  <Image src='https://picsum.photos/160/30' width={160} height={30} alt=''></Image>
                 </SplideSlide>
                 <SplideSlide>
-                  <Image src='https://picsum.photos/160/30' width={160} height={30}></Image>
+                  <Image src='https://picsum.photos/160/30' width={160} height={30} alt=''></Image>
                 </SplideSlide>
                 <SplideSlide>
-                  <Image src='https://picsum.photos/160/30' width={160} height={30}></Image>
+                  <Image src='https://picsum.photos/160/30' width={160} height={30} alt=''></Image>
                 </SplideSlide>
                 <SplideSlide>
-                  <Image src='https://picsum.photos/160/30' width={160} height={30}></Image>
+                  <Image src='https://picsum.photos/160/30' width={160} height={30} alt=''></Image>
                 </SplideSlide>
                 <SplideSlide>
-                  <Image src='https://picsum.photos/160/30' width={160} height={30}></Image>
+                  <Image src='https://picsum.photos/160/30' width={160} height={30} alt=''></Image>
                 </SplideSlide>
               </SplideTrack>
             </Splide>

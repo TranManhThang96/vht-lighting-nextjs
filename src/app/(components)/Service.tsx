@@ -6,7 +6,7 @@ const Service = () => {
     <section className="relative min-h-[700px] bg-gradient-to-b from-blue-100 to-[#f7f7f7] before:absolute before:left-0 before:right-0 before:top-[-134px] before:h-[134px] before:bg-decorate before:bg-[length:100%_134px] before:bg-left-top before:bg-no-repeat before:content-['']">
       <div className='mx-auto flex w-full gap-10 xl:max-w-screen-xl 2xl:max-w-screen-2xl'>
         <div className=''>
-          <Image src='https://picsum.photos/720/550' width={720} height={550}></Image>
+          <Image src='https://picsum.photos/720/550' width={720} height={550} alt=''></Image>
         </div>
         <div className=''>
           <h3 className='text-[15px] font-semibold uppercase leading-5 text-blue-200'>

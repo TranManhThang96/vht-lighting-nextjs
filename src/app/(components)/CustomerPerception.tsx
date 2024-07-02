@@ -94,6 +94,7 @@ const CustomerPerception = () => {
                 width={100}
                 height={100}
                 className='h-[100px] w-[100px] rounded-full'
+                alt=''
               ></Image>
               <div className='flex flex-col'>
                 <span className='text-xl font-semibold text-gray-100'>Coriss Ambady</span>
@@ -114,6 +115,7 @@ const CustomerPerception = () => {
                 width={100}
                 height={100}
                 className='h-[100px] w-[100px] rounded-full'
+                alt=''
               ></Image>
               <div className='flex flex-col'>
                 <span className='text-xl font-semibold text-gray-100'>Coriss Ambady</span>
@@ -134,6 +136,7 @@ const CustomerPerception = () => {
                 width={100}
                 height={100}
                 className='h-[100px] w-[100px] rounded-full'
+                alt=''
               ></Image>
               <div className='flex flex-col'>
                 <span className='text-xl font-semibold text-gray-100'>Coriss Ambady</span>
@@ -154,6 +157,7 @@ const CustomerPerception = () => {
                 width={100}
                 height={100}
                 className='h-[100px] w-[100px] rounded-full'
+                alt=''
               ></Image>
               <div className='flex flex-col'>
                 <span className='text-xl font-semibold text-gray-100'>Coriss Ambady</span>
@@ -174,6 +178,7 @@ const CustomerPerception = () => {
                 width={100}
                 height={100}
                 className='h-[100px] w-[100px] rounded-full'
+                alt=''
               ></Image>
               <div className='flex flex-col'>
                 <span className='text-xl font-semibold text-gray-100'>Coriss Ambady</span>

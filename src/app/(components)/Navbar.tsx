@@ -32,7 +32,7 @@ const Navbar = () => {
     <nav className='flex h-[85px] items-center justify-center'>
       <div className='flex w-full flex-row items-center justify-around xl:max-w-screen-xl 2xl:max-w-screen-2xl'>
         <a href='#'>
-          <Image src='https://picsum.photos/100/50' width={100} height={50}></Image>
+          <Image src='https://picsum.photos/100/50' width={100} height={50} alt=''></Image>
         </a>
         <div>
           <ul className='hidden flex-row gap-5 lg:flex'>
