@@ -1,5 +1,6 @@
 import type { Metadata } from 'next';
 import { Hanken_Grotesk } from 'next/font/google';
+import { GoogleAnalytics } from '@next/third-parties/google';
 import './globals.css';
 
 const nunito = Hanken_Grotesk({ subsets: ['latin'] });
@@ -17,6 +18,7 @@ export default function RootLayout({
   return (
     <html lang='en'>
       <body className={nunito.className}>{children}</body>
+      <GoogleAnalytics gaId='G-7VS64HN6ER' />
     </html>
   );
 }
