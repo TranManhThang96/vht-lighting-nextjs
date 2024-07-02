@@ -11,8 +11,9 @@ const config: Config = {
       backgroundImage: {
         'gradient-radial': 'radial-gradient(var(--tw-gradient-stops))',
         'gradient-conic': 'conic-gradient(from 180deg at 50% 50%, var(--tw-gradient-stops))',
-        banner: 'url("/images/banner.png")',
-        banner2: 'url("/images/banner2.png")',
+        decorate: 'url("/images/decorate.png")',
+        decorate2: 'url("/images/decorate2.png")',
+        decorate3: 'url("/images/decorate3.png")',
       },
       colors: {
         blue: {
