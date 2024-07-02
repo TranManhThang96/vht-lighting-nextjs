@@ -3,7 +3,10 @@ import React from 'react';
 
 const CustomerPerception = () => {
   return (
-    <section className="relative min-h-[900px] bg-gradient-to-b from-[#f7f7f7] to-blue-100 after:absolute after:bottom-[-1px] after:left-0 after:right-0 after:h-[134px] after:bg-decorate2 after:bg-[length:100%_134px] after:bg-left-top after:bg-no-repeat after:content-['']">
+    <section
+      id='customer'
+      className="relative min-h-[900px] bg-gradient-to-b from-[#f7f7f7] to-blue-100 after:absolute after:bottom-[-1px] after:left-0 after:right-0 after:h-[134px] after:bg-decorate2 after:bg-[length:100%_134px] after:bg-left-top after:bg-no-repeat after:content-['']"
+    >
       <div className='mx-auto w-full py-10 xl:max-w-screen-xl 2xl:max-w-screen-2xl'>
         <div className='flex w-full justify-between'>
           <div className='basis-1/3'>

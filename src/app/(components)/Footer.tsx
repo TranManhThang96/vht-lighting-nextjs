@@ -2,7 +2,10 @@ import React from 'react';
 
 const Footer = () => {
   return (
-    <footer className="relative bg-gray-100 before:absolute before:left-0 before:right-0 before:top-[-133px] before:h-[134px] before:bg-decorate3 before:bg-[length:100%_134px] before:bg-left-top before:bg-no-repeat before:content-['']">
+    <footer
+      id='footer'
+      className="relative bg-gray-100 before:absolute before:left-0 before:right-0 before:top-[-133px] before:h-[134px] before:bg-decorate3 before:bg-[length:100%_134px] before:bg-left-top before:bg-no-repeat before:content-['']"
+    >
       <div className='mx-auto w-full pt-10 xl:max-w-screen-xl 2xl:max-w-screen-2xl'>
         <div className='flex gap-10'>
           <div className='basis-1/2'>

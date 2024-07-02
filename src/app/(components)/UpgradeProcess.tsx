@@ -22,7 +22,7 @@ const UpgradeProcess = () => {
   ];
 
   return (
-    <section>
+    <section id='upgrade-process'>
       <div className='mx-auto grid w-full grid-cols-2 gap-10 py-[80px] xl:max-w-screen-xl 2xl:max-w-screen-2xl'>
         <div>
           <h3 className='text-base font-semibold uppercase text-blue-200'>Nâng cấp ánh sáng</h3>

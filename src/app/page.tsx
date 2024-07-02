@@ -7,6 +7,7 @@ import Service from './(components)/Service';
 import UpgradeProcess from './(components)/UpgradeProcess';
 import CustomerPerception from './(components)/CustomerPerception';
 import Navbar from './(components)/Navbar';
+import Client from './(components)/Client';
 
 export default function Home() {
   return (
@@ -19,6 +20,7 @@ export default function Home() {
       <UpgradeProcess />
       <CustomerPerception />
       <Footer />
+      <Client />
     </main>
   );
 }
