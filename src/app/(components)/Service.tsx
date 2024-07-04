@@ -1,5 +1,7 @@
+'use client';
 import Image from 'next/image';
 import React from 'react';
+import { motion } from 'framer-motion';
 
 const Service = () => {
   return (
@@ -8,9 +10,14 @@ const Service = () => {
       className="relative min-h-[700px] bg-gradient-to-b from-blue-100 to-[#f7f7f7] before:absolute before:left-0 before:right-0 before:top-[-134px] before:h-[134px] before:bg-decorate before:bg-[length:100%_134px] before:bg-left-top before:bg-no-repeat before:content-['']"
     >
       <div className='mx-auto flex w-full gap-10 py-10 xl:max-w-screen-xl 2xl:max-w-screen-2xl'>
-        <div className=''>
+        <motion.div
+          initial={{ opacity: 0, y: 100 }}
+          whileInView={{ opacity: 1, y: 0 }}
+          transition={{ duration: 1 }}
+          viewport={{ once: true }}
+        >
           <Image src='https://picsum.photos/720/550' width={720} height={550} alt=''></Image>
-        </div>
+        </motion.div>
         <div className=''>
           <h3 className='text-[15px] font-semibold uppercase leading-5 text-blue-200'>
             Tại sao bạn nên lựa chọn VHT Lighting?
